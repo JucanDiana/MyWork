@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_profile"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_age"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"/>
+        <RadioGroup
+            android:id="@+id/radioAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_age1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_age1" />
+            <RadioButton
+                android:id="@+id/radio_age2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_age2" />
+            <RadioButton
+                android:id="@+id/radio_age3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_age3" />
+            <RadioButton
+                android:id="@+id/radio_age4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_age4" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_genre"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"/>
+        <RadioGroup
+            android:id="@+id/radioGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_male" />
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_female" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_state"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"/>
+        <RadioGroup
+            android:id="@+id/radioState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioState1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_state1" />
+            <RadioButton
+                android:id="@+id/radioState2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_state2" />
+            <RadioButton
+                android:id="@+id/radioState3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_state3" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_education"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black" />
+        <RadioGroup
+            android:id="@+id/radioEducation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioEducation2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_education2" />
+            <RadioButton
+                android:id="@+id/radioEducation3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_education3" />
+            <RadioButton
+                android:id="@+id/radioEducation4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_education4" />
+            <RadioButton
+                android:id="@+id/radioEducation5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_education5" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_children"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+        <RadioGroup
+            android:id="@+id/radioHavingChildren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/children_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_yes" />
+            <RadioButton
+                android:id="@+id/children_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_no" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_smoker"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+        <RadioGroup
+            android:id="@+id/radioSmoker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/smoker_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_yes" />
+            <RadioButton
+                android:id="@+id/smoker_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/option_no" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_transport"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+        <CheckBox
+            android:id="@+id/checkboxTransport1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_transport1" />
+        <CheckBox
+            android:id="@+id/checkboxTransport2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_transport2" />
+        <CheckBox
+            android:id="@+id/checkboxTransport3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_transport3" />
+        <CheckBox
+            android:id="@+id/checkboxTransport4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_transport4" />
+        <TextView
+            android:id="@+id/error_transport_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_medical"
+            android:textSize="10pt"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+        <CheckBox
+            android:id="@+id/checkboxMedical1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_medical1" />
+        <CheckBox
+            android:id="@+id/checkboxMedical2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_medical2" />
+        <CheckBox
+            android:id="@+id/checkboxMedical3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_medical3" />
+        <CheckBox
+            android:id="@+id/checkboxMedical4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_medical4" />
+        <CheckBox
+            android:id="@+id/checkboxMedical5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_medical5" />
+        <CheckBox
+            android:id="@+id/checkboxMedical6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_medical6" />
+        <TextView
+            android:id="@+id/error_health_problems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"/>
+
+        <TextView
+            android:id="@+id/user_profile_error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"/>
+
+        <Button
+            android:id="@+id/button_save_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Save profile" />
+
+    </LinearLayout>
+</ScrollView>

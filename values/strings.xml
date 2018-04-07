@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Questionnaire</string>
+
+    <string name="label_age">Age</string>
+    <string name="radio_age1">&lt;18</string>
+    <string name="radio_age2">18-40</string>
+    <string name="radio_age3">41-60</string>
+    <string name="radio_age4">&gt;60</string>
+
+    <string name="label_genre">Genre</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+
+    <string name="label_state">State</string>
+    <string name="radio_state1">Married</string>
+    <string name="radio_state2">In a relationship</string>
+    <string name="radio_state3">Single</string>
+
+    <string name="label_education">Last graduate degree of education</string>
+    <string name="radio_education2">High school</string>
+    <string name="radio_education3">Bachelor</string>
+    <string name="radio_education4">Master</string>
+    <string name="radio_education5">Doctorate</string>
+
+    <string name="question_children">Do you have children?</string>
+    <string name="option_yes">Yes</string>
+    <string name="option_no">No</string>
+
+    <string name="question_smoker">Are you a smoker?</string>
+
+    <string name="question_transport">Which mode of transport do you use?</string>
+    <string name="checkbox_transport1">Personal car</string>
+    <string name="checkbox_transport2">Bus</string>
+    <string name="checkbox_transport3">Bicycle</string>
+    <string name="checkbox_transport4">I prefer to walk</string>
+
+    <string name="question_medical">Do you have any health problems?</string>
+    <string name="checkbox_medical1">Chronic respiratory diseases(asthma, bronchitis)</string>
+    <string name="checkbox_medical2">Cardiovascular diseases(diseases that involve the heart or blood vessels)</string>
+    <string name="checkbox_medical3">Trauma(broken limbs,head injury/fracture)</string>
+    <string name="checkbox_medical4">Allergies</string>
+    <string name="checkbox_medical5">Major surgery</string>
+    <string name="checkbox_medical6">Chronic inflammation(arthritis)</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+    <string name="error_fields_required">All fields are required!</string>
+
+    <string name="question_mental_state">How is your mental state?</string>
+    <string name="question_level_on_energy">What is your level energy today?</string>
+    <string name="question_pain">Do you feel any pain(headache)?</string>
+
+</resources>
